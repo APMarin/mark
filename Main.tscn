@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://images/hockey2.jpg" type="Texture" id=2]
+
+[node name="main" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="fondo" type="TextureRect" parent="."]
+margin_left = -1.0
+margin_top = 13.0
+margin_right = 1018.0
+margin_bottom = 601.0
+texture = ExtResource( 2 )
+expand = true
+flip_v = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
